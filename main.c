@@ -6,7 +6,7 @@
 /*   By: julnolle <julnolle@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/10 19:24:55 by julnolle          #+#    #+#             */
-/*   Updated: 2020/01/07 11:08:50 by julnolle         ###   ########.fr       */
+/*   Updated: 2020/04/30 20:23:15 by julnolle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,10 @@ int		main(void)
 	int myret;
 
 	ft_putendl("--------MY FONCTION--------");
-	myret = ft_printf("arg 1 : %10d\narg 2 : %p\narg 3 : %1.1u\n", 42, &ret, 0);
+	myret = ft_printf("arg 1 : %%% -.15d%%%p\n", 5, &ret);
 
 	ft_putendl("-------REAL FONCTION-------");
-	ret = printf("arg 1 : %10d\narg 2 : %p\narg 3 : %1.1u\n", 42, &ret, 0);
-
+	ret = printf("arg 1 : %%% -.15d%%%p\n", 5, &ret);
 	printf("----------RETURNS----------\n");
 	printf("My fction: %d\n", myret);
 	printf("Real one : %d\n", ret);

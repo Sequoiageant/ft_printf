@@ -6,7 +6,7 @@
 /*   By: julnolle <julnolle@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/05 19:33:20 by julnolle          #+#    #+#             */
-/*   Updated: 2020/01/08 10:41:42 by julnolle         ###   ########.fr       */
+/*   Updated: 2020/04/30 20:24:23 by julnolle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ size_t	ft_put_c(va_list *args, t_format *env)
 	char *tmp;
 
 	c = (char)va_arg(*args, int);
-	if (env->converter == '%')
-		c = '%';
 	tmp = NULL;
 	tmp = (char *)malloc(sizeof(char) * 1);
 	if (tmp)
