@@ -6,11 +6,10 @@
 /*   By: julnolle <julnolle@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/06 13:30:28 by julnolle          #+#    #+#             */
-/*   Updated: 2020/01/08 10:20:59 by julnolle         ###   ########.fr       */
+/*   Updated: 2020/04/30 19:27:35 by julnolle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 #include "ft_printf.h"
 
 /*

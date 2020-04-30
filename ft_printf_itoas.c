@@ -6,11 +6,10 @@
 /*   By: julnolle <julnolle@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/06 13:40:46 by julnolle          #+#    #+#             */
-/*   Updated: 2020/01/07 10:26:10 by julnolle         ###   ########.fr       */
+/*   Updated: 2020/04/30 19:27:36 by julnolle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 #include "ft_printf.h"
 
 char	*ft_itoa_base_u(unsigned int nb, char *base)
